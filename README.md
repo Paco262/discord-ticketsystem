@@ -7,7 +7,7 @@
 
 2. Navigieren Sie in das Projektverzeichnis:
    ```
-   cd IhrRepositoryName
+   cd ticket-system
    ```
 
 3. Installieren Sie die Abhängigkeiten:
