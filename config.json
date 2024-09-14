@@ -1,0 +1,31 @@
+{
+    "token": "DEIN-BOT-TOKEN", 
+    "clientId": "DISCORD-BOT-CLIENT-ID",
+    "guildId": "SERVERID",
+    "botStatus": {
+        "activity": "Ticket System",
+        "type": "PLAYING"
+    },
+    "ticketSystem": {
+        "channelId": "TICKET-CHANNELID",
+        "categories": {
+            "support": {
+                "name": "Support",
+                "description": "Öffne ein Support-Ticket",
+                "channelId": "SUPPORT-KATEGORIE-ID"
+            },
+            "bug": {
+                "name": "Bug-Tracker",
+                "description": "Melde einen Bug",
+                "channelId": "BUG-KATEGORIE-ID"
+            },
+            "complaint": {
+                "name": "Beschwerde",
+                "description": "Reiche eine Beschwerde ein",
+                "channelId": "BESCHWERDE-KATEGORIE-ID"
+            }
+        },
+        "teamRoleId": "TEAM-ROLE-ID",
+        "logChannelId": "LOG-CHANNEL"
+    }
+}

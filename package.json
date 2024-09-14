@@ -1,0 +1,13 @@
+{
+"version": "1.0.0",
+  "author": "Paco",
+  "dependencies": {
+    "discord.js": "^14.16.2",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  }
+}
